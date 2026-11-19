@@ -1,0 +1,169 @@
+(.Myenv) PS C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\Week4> ..\.Myenv\Scripts\Activate.ps1
+(.Myenv) PS C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\Week4> pip install -r requirements.txt
+Collecting transformers (from -r requirements.txt (line 1))
+  Downloading transformers-5.23.0-py3-none-any.whl.metadata (31 kB)
+Collecting sentencepiece (from -r requirements.txt (line 2))
+  Downloading sentencepiece-0.2.3-cp314-cp314-win_amd64.whl.metadata (35 kB)
+Collecting huggingface-hub<3.0,>=1.31.0 (from transformers->-r requirements.txt (line 1))
+  Downloading huggingface_hub-2.4.0-py3-none-any.whl.metadata (16 kB)
+Collecting numpy>=1.17 (from transformers->-r requirements.txt (line 1))
+  Downloading numpy-2.5.5-cp314-cp314-win_amd64.whl.metadata (6.6 kB)
+Requirement already satisfied: packaging>=20.0 in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages (from transformers->-r requirements.txt (line 1)) (26.3)
+Collecting pyyaml>=5.1 (from transformers->-r requirements.txt (line 1))
+  Downloading pyyaml-6.0.3-cp314-cp314-win_amd64.whl.metadata (2.4 kB)
+Collecting regex>=2025.10.22 (from transformers->-r requirements.txt (line 1))
+  Downloading regex-2026.11.15-cp314-cp314-win_amd64.whl.metadata (41 kB)
+Collecting tokenizers<0.24.0,>=0.23.1 (from transformers->-r requirements.txt (line 1))
+  Downloading tokenizers-0.23.3-cp310-abi3-win_amd64.whl.metadata (10 kB)
+Collecting typer (from transformers->-r requirements.txt (line 1))
+  Downloading typer-0.29.1-py3-none-any.whl.metadata (16 kB)
+Collecting safetensors>=0.8.0 (from transformers->-r requirements.txt (line 1))
+  Downloading safetensors-0.8.0-cp310-abi3-win_amd64.whl.metadata (4.2 kB)
+Collecting tqdm>=4.60 (from transformers->-r requirements.txt (line 1))
+  Downloading tqdm-4.70.1-py3-none-any.whl.metadata (57 kB)
+Collecting click<9.0.0,>=8.4.2 (from huggingface-hub<3.0,>=1.31.0->transformers->-r requirements.txt (line 1))
+  Downloading click-8.5.1-py3-none-any.whl.metadata (2.6 kB)
+Collecting filelock>=3.10.0 (from huggingface-hub<3.0,>=1.31.0->transformers->-r requirements.txt (line 1))
+  Downloading filelock-4.2.11-py3-none-any.whl.metadata (2.3 kB)
+Collecting fsspec>=2023.5.0 (from huggingface-hub<3.0,>=1.31.0->transformers->-r requirements.txt (line 1))
+  Downloading fsspec-2026.9.0-py3-none-any.whl.metadata (10 kB)
+Collecting hf-xet<2.0.0,>=1.6.0 (from huggingface-hub<3.0,>=1.31.0->transformers->-r requirements.txt (line 1))
+  Downloading hf_xet-1.8.0-cp38-abi3-win_amd64.whl.metadata (4.9 kB)
+Requirement already satisfied: httpx2<3,>=2.0.0 in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages (from huggingface-hub<3.0,>=1.31.0->transformers->-r requirements.txt (line 1)) (2.16.0)
+Requirement already satisfied: typing-extensions>=4.1.0 in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages (from huggingface-hub<3.0,>=1.31.0->transformers->-r requirements.txt (line 1)) (4.16.0)
+Requirement already satisfied: anyio>=4.10 in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->transformers->-r requirements.txt (line 1)) (4.16.0)
+Requirement already satisfied: httpcore2==2.16.0 in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->transformers->-r requirements.txt (line 1)) (2.16.0)
+Requirement already satisfied: idna>=3.18 in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->transformers->-r requirements.txt (line 1)) (3.20)
+Requirement already satisfied: truststore>=0.10 in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages (from httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->transformers->-r requirements.txt (line 1)) (0.10.5)
+Requirement already satisfied: h11>=0.16 in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages(from httpcore2==2.16.0->httpx2<3,>=2.0.0->huggingface-hub<3.0,>=1.31.0->transformers->-r requirements.txt (line 1)) (0.16.0)
+Requirement already satisfied: colorama in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages (from tqdm>=4.60->transformers->-r requirements.txt (line 1)) (0.4.6)
+Requirement already satisfied: pydantic>=2.5.3 in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages (from typer->transformers->-r requirements.txt (line 1)) (2.14.3)
+Collecting shellingham>=1.3.0 (from typer->transformers->-r requirements.txt (line 1))
+  Downloading shellingham-1.5.4-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting rich>=13.8.0 (from typer->transformers->-r requirements.txt (line 1))
+  Downloading rich-15.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting annotated-doc>=0.0.2 (from typer->transformers->-r requirements.txt (line 1))
+  Downloading annotated_doc-0.0.6-py3-none-any.whl.metadata (6.5 kB)
+Requirement already satisfied: annotated-types>=0.6.0 in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages (from pydantic>=2.5.3->typer->transformers->-r requirements.txt (line 1)) (0.8.0)
+Requirement already satisfied: pydantic-core==2.50.4 in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages (from pydantic>=2.5.3->typer->transformers->-r requirements.txt (line 1)) (2.50.4)
+Requirement already satisfied: typing-inspection>=0.4.4 in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages (from pydantic>=2.5.3->typer->transformers->-r requirements.txt (line 1)) (0.4.5)
+Collecting markdown-it-py>=2.2.0 (from rich>=13.8.0->typer->transformers->-r requirements.txt (line 1))
+  Downloading markdown_it_py-4.3.0-py3-none-any.whl.metadata (7.9 kB)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages (from rich>=13.8.0->typer->transformers->-r requirements.txt (line 1)) (2.21.0)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=13.8.0->typer->transformers->-r requirements.txt (line 1))
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Downloading transformers-5.23.0-py3-none-any.whl (13.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.3/13.3 MB 3.5 MB/s  0:00:03
+Downloading huggingface_hub-2.4.0-py3-none-any.whl (857 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 857.0/857.0 kB 4.9 MB/s  0:00:00
+Downloading click-8.5.1-py3-none-any.whl (126 kB)
+Downloading hf_xet-1.8.0-cp38-abi3-win_amd64.whl (3.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.9/3.9 MB 3.9 MB/s  0:00:00
+Downloading tokenizers-0.23.3-cp310-abi3-win_amd64.whl (2.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 3.9 MB/s  0:00:00
+Downloading sentencepiece-0.2.3-cp314-cp314-win_amd64.whl (1.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 3.5 MB/s  0:00:00
+Downloading filelock-4.2.11-py3-none-any.whl (222 kB)
+Downloading fsspec-2026.9.0-py3-none-any.whl (221 kB)
+Downloading numpy-2.5.5-cp314-cp314-win_amd64.whl (12.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.7/12.7 MB 3.6 MB/s  0:00:03
+Downloading pyyaml-6.0.3-cp314-cp314-win_amd64.whl (156 kB)
+Downloading regex-2026.11.15-cp314-cp314-win_amd64.whl (284 kB)
+Downloading safetensors-0.8.0-cp310-abi3-win_amd64.whl (355 kB)
+Downloading tqdm-4.70.1-py3-none-any.whl (80 kB)
+Downloading typer-0.29.1-py3-none-any.whl (121 kB)
+Downloading annotated_doc-0.0.6-py3-none-any.whl (5.3 kB)
+Downloading rich-15.0.0-py3-none-any.whl (310 kB)
+Downloading markdown_it_py-4.3.0-py3-none-any.whl (96 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading shellingham-1.5.4-py2.py3-none-any.whl (9.8 kB)
+Installing collected packages: tqdm, shellingham, sentencepiece, safetensors, regex, pyyaml, numpy, mdurl, hf-xet, fsspec, filelock, click, annotated-doc, markdown-it-py, rich, huggingface-hub, typer, tokenizers, transformers
+Successfully installed annotated-doc-0.0.6 click-8.5.1 filelock-4.2.11 fsspec-2026.9.0 hf-xet-1.8.0 huggingface-hub-2.4.0 markdown-it-py-4.3.0 mdurl-0.1.2 numpy-2.5.5 pyyaml-6.0.3 regex-2026.11.15 rich-15.0.0 safetensors-0.8.0 sentencepiece-0.2.3 shellingham-1.5.4 tokenizers-0.23.3 tqdm-4.70.1 transformers-5.23.0 typer-0.29.1
+(.Myenv) PS C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\Week4> python tokenizer_comparison.py
+[transformers] PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+Loading BPE - GPT-2...
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+config.json: 100%|███████████████████████████████████████████████████████████████████| 665/665 [00:00<00:00, 995kB/s]
+C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machinedoes not support them in C:\Users\my pc\.cache\huggingface\hub\models--gpt2. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+tokenizer_config.json: 100%|██████████████████████████████████████████████████████| 26.0/26.0 [00:00<00:00, 40.4kB/s]
+vocab.json: 100%|███████████████████████████████████████████████████████████████| 1.04M/1.04M [00:00<00:00, 1.85MB/s]
+merges.txt: 100%|█████████████████████████████████████████████████████████████████| 456k/456k [00:00<00:00, 1.97MB/s]
+tokenizer.json: 100%|███████████████████████████████████████████████████████████| 1.36M/1.36M [00:00<00:00, 10.9MB/s]
+Loading WordPiece - Multilingual BERT...
+config.json: 100%|██████████████████████████████████████████████████████████████████| 625/625 [00:00<00:00, 1.03MB/s]
+C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machinedoes not support them in C:\Users\my pc\.cache\huggingface\hub\models--bert-base-multilingual-cased. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+tokenizer_config.json: 100%|███████████████████████████████████████████████████████| 49.0/49.0 [00:00<00:00, 137kB/s]
+vocab.txt: 100%|██████████████████████████████████████████████████████████████████| 996k/996k [00:00<00:00, 2.37MB/s]
+tokenizer.json: 100%|███████████████████████████████████████████████████████████| 1.96M/1.96M [00:00<00:00, 3.60MB/s]
+Loading SentencePiece - XLM-R...
+config.json: 100%|██████████████████████████████████████████████████████████████████| 615/615 [00:00<00:00, 1.87MB/s]
+C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\.Myenv\Lib\site-packages\huggingface_hub\file_download.py:149: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machinedoes not support them in C:\Users\my pc\.cache\huggingface\hub\models--xlm-roberta-base. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+tokenizer_config.json: 100%|███████████████████████████████████████████████████████| 25.0/25.0 [00:00<00:00, 111kB/s]
+sentencepiece.bpe.model: 100%|██████████████████████████████████████████████████| 5.07M/5.07M [00:01<00:00, 2.94MB/s]
+tokenizer.json: 100%|███████████████████████████████████████████████████████████| 9.10M/9.10M [00:01<00:00, 6.04MB/s]
+
+===========================================================================
+LANGUAGE: English
+INPUT TEXT: Artificial intelligence is changing the world.
+===========================================================================
+
+BPE - GPT-2
+Tokens     : ['Art', 'ificial', 'Ġintelligence', 'Ġis', 'Ġchanging', 'Ġthe', 'Ġworld', '.']
+Token IDs  : [8001, 9542, 4430, 318, 5609, 262, 995, 13]
+Token count: 8
+
+WordPiece - Multilingual BERT
+Tokens     : ['[CLS]', 'Arti', '##ficial', 'intelligence', 'is', 'changing', 'the', 'world', '.', '[SEP]']
+Token IDs  : [101, 90841, 69229, 30151, 10124, 43068, 10105, 11356, 119, 102]
+Token count: 10
+
+SentencePiece - XLM-R
+Tokens     : ['<s>', '▁Artificial', '▁', 'intelligence', '▁is', '▁changing', '▁the', '▁world', '.', '</s>']
+Token IDs  : [0, 231996, 6, 130687, 83, 151134, 70, 8999, 5, 2]
+Token count: 10
+
+===========================================================================
+LANGUAGE: Telugu
+INPUT TEXT: కృత్రిమ మేధస్సు ప్రపంచాన్ని మారుస్తోంది.
+===========================================================================
+
+BPE - GPT-2
+Tokens     : ['à', '°', 'ķ', 'à', '±', 'ĥ', 'à', '°', '¤', 'à', '±', 'į', 'à', '°', '°', 'à', '°', '¿', 'à', '°', '®', 'Ġ', 'à', '°', '®', 'à', '±', 'ĩ', 'à', '°', '§', 'à', '°', '¸', 'à', '±', 'į', 'à', '°', '¸', 'à', '±', 'ģ', 'Ġ', 'à', '°', 'ª', 'à', '±', 'į', 'à', '°', '°', 'à', '°', 'ª', 'à', '°', 'Ĥ', 'à', '°', 'ļ', 'à', '°', '¾', 'à', '°', '¨','à', '±', 'į', 'à', '°', '¨', 'à', '°', '¿', 'Ġ', 'à', '°', '®', 'à', '°', '¾', 'à', '°', '°', 'à', '±', 'ģ', 'à', '°', '¸', 'à', '±', 'į', 'à', '°', '¤', 'à', '±', 'ĭ', 'à', '°', 'Ĥ', 'à', '°', '¦', 'à', '°', '¿', '.']
+Token IDs  : [156, 108, 243, 156, 109, 225, 156, 108, 97, 156, 109, 235, 156, 108, 108, 156, 108, 123, 156, 108, 106,220, 156, 108, 106, 156, 109, 229, 156, 108, 100, 156, 108, 116, 156, 109, 235, 156, 108, 116, 156, 109, 223, 220, 156, 108, 103, 156, 109, 235, 156, 108, 108, 156, 108, 103, 156, 108, 224, 156, 108, 248, 156, 108, 122, 156, 108, 101, 156, 109, 235, 156, 108, 101, 156, 108, 123, 220, 156, 108, 106, 156, 108, 122, 156, 108, 108, 156, 109, 223, 156, 108, 116, 156, 109, 235, 156, 108, 97, 156, 109, 233, 156, 108, 224, 156, 108, 99, 156, 108, 123, 13]
+Token count: 112
+
+WordPiece - Multilingual BERT
+Tokens     : ['[CLS]', 'క', '##ృ', '##త్రి', '##మ', 'మ', '##ే', '##ధ', '##స్', '##సు', 'ప్రపంచ', '##ాన్ని', 'మ', '##ారు', '##స్', '##తోంది', '.', '[SEP]']
+Token IDs  : [101, 1201, 111339, 88046, 24696, 1224, 17729, 99288, 15370, 39179, 94504, 23769, 1224, 27374, 15370, 68450, 119, 102]
+Token count: 18
+
+SentencePiece - XLM-R
+Tokens     : ['<s>', '▁', 'కృత', '్రి', 'మ', '▁మే', 'ధ', 'స్సు', '▁ప్రపంచ', 'ాన్ని', '▁మారు', 'స్తోంది', '.', '</s>']
+Token IDs  : [0, 6, 151424, 91445, 3071, 22290, 11600, 129461, 86457, 6258, 169610, 104528, 5, 2]
+Token count: 14
+
+===========================================================================
+LANGUAGE: Hindi
+INPUT TEXT: कृत्रिम बुद्धिमत्ता दुनिया को बदल रही है।
+===========================================================================
+
+BPE - GPT-2
+Tokens     : ['à¤', 'ķ', 'à¥', 'ĥ', 'à¤', '¤', 'à¥', 'į', 'à¤', '°', 'à¤', '¿', 'à¤', '®', 'Ġà¤', '¬', 'à¥', 'ģ', 'à¤', '¦', 'à¥', 'į', 'à¤', '§', 'à¤', '¿', 'à¤', '®', 'à¤', '¤', 'à¥', 'į', 'à¤', '¤', 'à¤¾', 'Ġà¤', '¦', 'à¥', 'ģ', 'à¤', '¨', 'à¤', '¿', 'à¤', '¯', 'à¤¾', 'Ġà¤', 'ķ', 'à¥', 'ĭ', 'Ġà¤', '¬', 'à¤', '¦', 'à¤', '²', 'Ġà¤', '°', 'à¤', '¹', 'à¥', 'Ģ', 'Ġà¤', '¹', 'à¥', 'Ī', 'à¥', '¤']
+Token IDs  : [11976, 243, 24231, 225, 11976, 97, 24231, 235, 11976, 108, 11976, 123, 11976, 106, 28225, 105, 24231, 223, 11976, 99, 24231, 235, 11976, 100, 11976, 123, 11976, 106, 11976, 97, 24231, 235, 11976, 97, 48077, 28225, 99, 24231, 223, 11976, 101, 11976, 123, 11976, 107, 48077, 28225, 243, 24231, 233, 28225, 105, 11976, 99, 11976, 110, 28225, 108, 11976, 117, 24231, 222, 28225, 117, 24231, 230, 24231, 97]
+Token count: 68
+
+WordPiece - Multilingual BERT
+Tokens     : ['[CLS]', 'क', '##ृत', '##्र', '##िम', 'ब', '##ुद्ध', '##िम', '##त्ता', 'दुनिया', 'को', 'ब', '##दल', 'रही', 'है', '।', '[SEP]']
+Token IDs  : [101, 865, 37500, 18321, 50419, 887, 48010, 50419, 94034, 83874, 11267, 887, 99989, 57203, 10569, 920, 102]
+Token count: 17
+
+SentencePiece - XLM-R
+Tokens     : ['<s>', '▁कृत', '्रि', 'म', '▁बुद्धि', 'म', 'त्ता', '▁दुनिया', '▁को', '▁बदल', '▁रही', '▁है', '।', '</s>']
+Token IDs  : [0, 74707, 97885, 1920, 105202, 1920, 54297, 29405, 629, 14512, 8906, 460, 125, 2]
+Token count: 14

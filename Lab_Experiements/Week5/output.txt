@@ -1,0 +1,28 @@
+(.Myenv) PS C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\Week4> cd ..\Week5
+(.Myenv) PS C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\Week5> ..\.Myenv\Scripts\Activate.ps1
+(.Myenv) PS C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\Week5> python budget.py
+
+TOKEN ECONOMICS REPORT
+-----------------------------------
+Input tokens/day:  2,400,000
+Output tokens/day: 600,000
+Total tokens/day:  3,000,000
+Estimated daily cost:   $1.4400
+Estimated monthly cost: $43.20
+Peak RPM with margin: 36.0
+Peak TPM with margin: 54000
+
+CHECKS
+RPM capacity: PASS
+TPM capacity: PASS
+Daily budget: PASS
+Monthly budget: REVIEW
+
+Recommendation: REVISE assumptions, limits, or design before build.
+(.Myenv) PS C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\Week5> python -m unittest test_budget.py
+....
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
+(.Myenv) PS C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\Week5> 

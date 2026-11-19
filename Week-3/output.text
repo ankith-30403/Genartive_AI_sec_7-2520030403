@@ -1,0 +1,42 @@
+(.Myenv) PS C:\Users\my pc\OneDrive\Desktop\Lab_Experiements\Week-3> python main.py                                   
+Choose provider (gemini/ollama): ollama
+Enter your question: What is cloud computing?
+Temporary error. Retry 1 of 2 in 1 seconds.
+Usage details saved to MongoDB.
+Latency: 120131.1 ms
+Input tokens: 30
+Output tokens: 507
+Estimated cost (USD): 0.0
+\nLLM Response:
+Cloud computing is a model for delivering computing services over the internet, where resources such as servers, storage, databases, software, and applications are provided as a service to users on-demand. Instead of having to manage and maintain their own hardware and software, users can access these resources on a pay-as-you-go basis, allowing for greater flexibility, scalability, and cost savings.
+
+The main characteristics of cloud computing are:
+
+1. **On-demand self-service**: Users can provision and de-provision resources as needed, without requiring IT support.
+2. **Broad network access**: Resources are accessible over the internet, or a private network, from any device, anywhere in the world.
+3. **Resource pooling**: Resources are pooled together to provide a multi-tenant environment, where resources can be dynamically allocated and re-allocated based on demand.
+4. **Rapid elasticity**: Resources can be quickly scaled up or down to match changing business needs.
+5. **Measured service**: Users pay only for the resources they use, rather than having to purchase and maintain theirown hardware and software.
+
+Cloud computing provides a range of benefits, including:
+
+1. **Cost savings**: Reduced capital and operational expenses.
+2. **Increased scalability**: Ability to quickly scale up or down to match changing business needs.
+3. **Improved flexibility**: Ability to access resources from anywhere, on any device.
+4. **Enhanced collaboration**: Easy access to applications and data from anywhere.
+5. **Reduced IT management**: Less need for IT support and maintenance.
+
+There are several types of cloud computing models, including:
+
+1. **Public cloud**: A cloud computing environment that is open to the general public and is owned by a third-party provider.
+2. **Private cloud**: A cloud computing environment that is owned and managed by a single organization.
+3. **Hybrid cloud**: A cloud computing environment that combines public and private cloud services.
+4. **Community cloud**: A cloud computing environment that is shared by multiple organizations with similar interests.
+
+Cloud computing is widely used in a variety of industries, including:
+
+1. **Business**: For applications such as customer relationship management (CRM), enterprise resource planning (ERP),and data analytics.
+2. **Healthcare**: For medical imaging, patient data storage, and telemedicine applications.
+3. **Finance**: For financial transactions, data analytics, and risk management.
+4. **Gaming**: For game development, distribution, and online gaming.
+5. **Education**: For online learning, data storage, and research applications.
