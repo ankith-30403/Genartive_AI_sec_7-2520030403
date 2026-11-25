@@ -1,1 +1,1 @@
-
+Ran a baseline evaluation script in Python against llama3.2 over a local Ollama endpoint using golden_set.json to check how well model responses match expected keywords. Scoring answers with a simple keyword-coverage check and PASS/REVIEW/ERROR status made it easy to spot where a local model misses key terms without overcomplicating early testing. Running the script prints per-question scores and a release v0.1 summary to the terminal while saving all details to baseline_results.csv.
